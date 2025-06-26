@@ -33,6 +33,8 @@ function Navbar() {
                     flex
                     gap-4">
                     Postagem
+                    <Link to='/temas' className='hover:underline'>Temas</Link>
+                    <Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link>
                     <Link to="/cadastro" className="text-2xl fonte-bold"> Cadastro </Link>
                     <Link to="/login" onClick={logout} className="text-2xl fonte-bold hover:underline">
                      Sair

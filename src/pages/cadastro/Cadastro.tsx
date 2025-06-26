@@ -65,6 +65,7 @@ function Cadastro() {
         ...usuario,
         senha:""
       })
+      setConfirmaSenha("")
     }
 
     setIsLoading(false)

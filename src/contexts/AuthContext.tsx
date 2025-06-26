@@ -1,6 +1,5 @@
 import { createContext, useState, type ReactNode } from "react";
 import type UsuarioLogin from "../models/UsuarioLogin";
-import { createCookie } from "react-router-dom";
 import { login } from "../services/Service";
 
 interface AuthContextProps{
